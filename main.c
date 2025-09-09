@@ -8,8 +8,8 @@ int Control(int altitude) {
 
   // min kode
 
-  // tjekker at altitude er både <=100 og >0 og tænder for thruster hvis det er
-  // sandt
+  // tjekker at altitude er både <=100 og >0  gælder, og tænder for thruster
+  // hvis det er sandt
   if (altitude <= 100 && altitude > 0)
     thruster = 1;
   // hvis det overstående ikke gælder slukker denne for thruster
